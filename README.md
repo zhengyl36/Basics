@@ -26,7 +26,7 @@ var html = document.documentElement;
 ```js
  <meta name="viewport" content="width=设计稿宽度, target-densitydpi=device-dpi">
 ```
-    布局时完全按照设计稿布局即可，浏览器会帮我们自动缩放到适配屏幕大小。
+    布局时完全按照设计稿布局即可，浏览器会帮我们自动缩放到适配屏幕大小，包括图片字体等。
     
     target-densitydpi=device-dpi 属性用于适配android4.4以下机型，已逐渐不再支持。
 
